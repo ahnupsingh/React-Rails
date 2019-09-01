@@ -1,5 +1,10 @@
 class Appointments extends React.Component {
 	render() {
-		return <h1>{this.props.title}</h1>;
+		return (
+			<div>
+			<AppointmentForm/>
+			<AppointmentList appointments={this.props.appointments}/>
+			</div>
+		)
 	}
 }
