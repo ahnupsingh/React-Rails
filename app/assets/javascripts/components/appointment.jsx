@@ -3,7 +3,7 @@ class Appointment extends React.Component {
 		return (
       <div>
         <h3>{this.props.appointment.title}</h3>
-        <p>{this.props.appointment.apt_time}</p>
+        <p>{formatDate(this.props.appointment.apt_time)}</p>
       </div>
 		)
 	}
