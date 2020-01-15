@@ -13,10 +13,4 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require jquery
-//= require react
-//= require react_ujs
-//= require moment
-//= require react-datetime.min
-//= require components
 //= require_tree .
